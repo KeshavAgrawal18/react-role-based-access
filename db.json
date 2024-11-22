@@ -1,0 +1,50 @@
+{
+  "users": [
+    {
+      "name": "John Doe",
+      "email": "john.doe@example.com",
+      "role": "Admin",
+      "id": "1"
+    },
+    {
+      "id": "2",
+      "name": "Jane Smith",
+      "email": "jane.smith@example.com",
+      "role": "Editor",
+      "status": "Inactive"
+    },
+    {
+      "id": "b586",
+      "name": "Keshav",
+      "email": "Keshav@example.com",
+      "role": "Employee",
+      "status": "Active"
+    }
+  ],
+  "roles": [
+    {
+      "id": "1",
+      "name": "Admin",
+      "permissions": [
+        "read",
+        "write",
+        "delete"
+      ]
+    },
+    {
+      "id": "2",
+      "name": "Editor",
+      "permissions": [
+        "read",
+        "write"
+      ]
+    },
+    {
+      "id": "d546",
+      "name": "Employee",
+      "permissions": [
+        "read"
+      ]
+    }
+  ]
+}
